@@ -146,6 +146,27 @@ nav .logo{
 }
 /* popular end */
 
+/* feature start */
+.feature-section{
+    display: flex;
+    gap: 94px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.feature-heading{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 38px;
+}
+.feature-right button{
+    border-radius: 0;
+    margin-top: 16px;
+}
+
+/* feature end */
+
 /* responsive small device */
 @media screen and (max-width: 576px) {
     nav{
@@ -174,8 +195,19 @@ nav .logo{
         flex-wrap: wrap;
         gap: 20px;
     }
+    .popular-section{
+        margin-bottom: 50px;
+    }
     .popular-cards{
         grid-template-columns: 1fr;
-        /* width: 100%; */
+    }
+    .feature-section{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .feature-heading{
+        margin-bottom: 15px;
     }
 }
