@@ -167,6 +167,28 @@ nav .logo{
 
 /* feature end */
 
+/* footer start */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0A0826;
+    color: white;
+    padding: 50px 0px;
+}
+.footer-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-logo{
+    display: flex;
+    gap: 16px;
+    margin-top: 17px;
+}
+/* footer end */
+
 /* responsive small device */
 @media screen and (max-width: 576px) {
     nav{
