@@ -80,7 +80,10 @@ nav .logo{
     background-image: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    /* background-position: center center; */
+}
+.start-journey-right img{
+    width: 100%;
 }
 /* start section end */
 
